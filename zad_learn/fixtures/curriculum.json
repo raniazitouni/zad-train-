@@ -1,0 +1,129 @@
+[
+    {
+        "model": "zad_learn.curriculum",
+        "pk": 1,
+        "fields": {
+            "created_at": "2025-03-01T12:00:00Z",
+            "updated_at": "2025-03-01T12:00:00Z",
+            "created_by": 1,
+            "title": "PAC460K3 Injection Molding Curriculum",
+            "description": "Training program for operating and maintaining the PAC460K3 injection molding machine.",
+            "thumbnail_url": null,
+            "status": "draft"
+        }
+    },
+    {
+        "model": "zad_learn.chapter",
+        "pk": 1,
+        "fields": {
+            "created_at": "2025-03-01T12:00:00Z",
+            "updated_at": "2025-03-01T12:00:00Z",
+            "title": "Phase 1: Introduction and Basic Safety",
+            "curriculum": 1,
+            "description": null,
+            "order": 0
+        }
+    },
+    {
+        "model": "zad_learn.lesson",
+        "pk": 1,
+        "fields": {
+            "created_at": "2025-03-01T12:00:00Z",
+            "updated_at": "2025-03-01T12:00:00Z",
+            "title": "Session 1: Introduction to Plastic Injection Molding",
+            "content": "Injection molding is one of the most important and widely used manufacturing processes for producing plastic parts...",
+            "chapter": 1,
+            "order": 0,
+            "duration_minutes": null
+        }
+    },
+    {
+        "model": "zad_learn.materials",
+        "pk": 1,
+        "fields": {
+            "type": "image",
+            "url": "https://example.com/materials/session1/image1.jpg",
+            "lesson": 1,
+            "created_at": "2025-03-01T12:00:00Z",
+            "updated_at": "2025-03-01T12:00:00Z",
+            "title": "Injection Molding Process",
+            "description": "An overview of the injection molding process.",
+            "file_size": null,
+            "file_type": null
+        }
+    },
+    {
+        "model": "zad_learn.materials",
+        "pk": 2,
+        "fields": {
+            "type": "video",
+            "url": "https://example.com/materials/session1/video1.mp4",
+            "lesson": 1,
+            "created_at": "2025-03-01T12:00:00Z",
+            "updated_at": "2025-03-01T12:00:00Z",
+            "title": "Injection Molding Process Overview",
+            "description": "A video overview of the injection molding process.",
+            "file_size": null,
+            "file_type": null
+        }
+    },
+    {
+        "model": "zad_learn.trainer",
+        "pk": 1,
+        "fields": {
+            "created_at": "2025-03-01T12:00:00Z",
+            "updated_at": "2025-03-01T12:00:00Z",
+            "user": 9,
+            "bio": "Experienced trainer in injection molding",
+            "profession": "Engineer",
+            "specialization": "Mechanical Engineering",
+            "years_of_experience": 10,
+            "certifications": ["Certified Trainer"]
+        }
+    },
+    {
+        "model": "zad_learn.trainee",
+        "pk": 1,
+        "fields": {
+            "created_at": "2025-03-01T12:00:00Z",
+            "updated_at": "2025-03-01T12:00:00Z",
+            "user": 10
+        }
+    },
+    {
+        "model": "zad_learn.enrollment",
+        "pk": 1,
+        "fields": {
+            "trainee": 1,
+            "curriculum": 1,
+            "created_at": "2025-03-07T12:00:00Z",
+            "updated_at": "2025-03-07T12:00:00Z",
+            "is_deleted": false
+        }
+    },
+    {
+        "model": "zad_learn.note",
+        "pk": 1,
+        "fields": {
+            "lesson": 1,
+            "trainer": 1,
+            "title": "Important Safety Guidelines",
+            "content": "Always ensure the machine is powered off before performing maintenance.",
+            "is_public": true,
+            "created_at": "2025-03-07T12:00:00Z",
+            "updated_at": "2025-03-07T12:00:00Z"
+        }
+    },
+    {
+        "model": "zad_learn.feedback",
+        "pk": 1,
+        "fields": {
+            "curriculum": 1,
+            "trainee": 1,
+            "rating": 5,
+            "comment": "The curriculum was very informative and well-structured.",
+            "created_at": "2025-03-07T12:00:00Z",
+            "updated_at": "2025-03-07T12:00:00Z"
+        }
+    }
+]

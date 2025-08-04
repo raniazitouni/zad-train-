@@ -1,0 +1,11 @@
+Django>=3.2.4,<3.3
+djangorestframework>=3.14.0,<3.15
+django-filter>=21.1,<22
+drf-nested-routers==0.93.4
+drf_spectacular==0.26.2
+djangorestframework_simplejwt==5.3.0
+djoser==2.3.1
+psycopg2-binary==2.9.10
+django-cors-headers==3.14.0
+python-decouple==3.8
+boto3

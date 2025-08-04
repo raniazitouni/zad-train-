@@ -1,0 +1,215 @@
+{
+    "curriculum": {
+        "title": "PAC460K3 Training Pprogram",
+        "description": "PAC460K3 Training Pprogram description",
+        "chapters": [
+            {
+                "title": "Chapter 1: Safety Check",
+                "objectives": [],
+                "content": [
+                    {
+                        "type": "lesson",
+                        "title": "General Rules",
+                        "content": "...",
+                        "resources": [
+                            {
+                                "id": 20,
+                                "type": "slides",
+                                "title": "General Rules",
+                                "content": [
+                                    {
+                                        "template": "intro-title",
+                                        "data": {
+                                            "title": "PAC460K3 Injection Molding Machine Training",
+                                            "centered": true
+                                        }
+                                    },
+                                    {
+                                        "template": "intro-title-description",
+                                        "data": {
+                                            "title": "Welcome to the PAC460K3 Training Program",
+                                            "description": "This training program covers installation, safety, operation, and maintenance of the PAC460K3 injection molding machine.",
+                                            "centered": true
+                                        }
+                                    },
+                                    {
+                                        "template": "title-subdescriptions",
+                                        "data": {
+                                            "title": "Key Training Modules",
+                                            "descriptions": [
+                                                "Safety Operations and Procedures",
+                                                "Installation and Commissioning",
+                                                "Operation Modes and Controls",
+                                                "Troubleshooting and Maintenance"
+                                            ],
+                                            "direction": "column"
+                                        }
+                                    },
+                                    {
+                                        "template": "title-subtitles-subdescriptions",
+                                        "data": {
+                                            "title": "Core Safety Principles",
+                                            "descriptions": [
+                                                {
+                                                    "title": "Safety Door Use",
+                                                    "description": "Always keep the safety doors closed during operation to prevent injury."
+                                                },
+                                                {
+                                                    "title": "Emergency Stops",
+                                                    "description": "Know where all emergency stop buttons are located and use them during malfunction."
+                                                },
+                                                {
+                                                    "title": "High Temperature Awareness",
+                                                    "description": "Barrels and nozzles operate at high temperatures; wear PPE."
+                                                },
+                                                {
+                                                    "title": "Hydraulic Cautions",
+                                                    "description": "Check oil levels and never operate with leaks."
+                                                }
+                                            ],
+                                            "direction": "row"
+                                        }
+                                    },
+                                    {
+                                        "template": "title-description-image",
+                                        "data": {
+                                            "title": "Machine Overview",
+                                            "description": "The PAC460K3 is a high-speed, servo-driven injection molding machine designed for complex thermoplastic molding applications.",
+                                            "image": "https://images.unsplash.com/photo-1727292485858-588c7652ad69?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                                            "image_description": "Overview of a high-speed injection molding machine"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "lesson",
+                        "title": "Safety Principles",
+                        "content": "...",
+                        "resources": [
+                            {
+                                "id": 8,
+                                "type": "slides",
+                                "title": "Safety Principles",
+                                "description": "...",
+                                "url": "...",
+                                "content": [
+                                    {
+                                        "template": "intro-title",
+                                        "data": {
+                                            "title": "Intro"
+                                        }
+                                    },
+                                    {
+                                        "template": "intro-title",
+                                        "data": {
+                                            "title": "Intro",
+                                            "centered": true
+                                        }
+                                    },
+                                    {
+                                        "template": "intro-title-description",
+                                        "data": {
+                                            "title": "Intro",
+                                            "description": "Description"
+                                        }
+                                    },
+                                    {
+                                        "template": "intro-title-description",
+                                        "data": {
+                                            "title": "Intro",
+                                            "description": "Description",
+                                            "centered": true
+                                        }
+                                    },
+                                    {
+                                        "template": "title-subdescriptions",
+                                        "data": {
+                                            "title": "Simple list",
+                                            "descriptions": [
+                                                "Add a quick description of each thing, with enough context to understand what's up.",
+                                                "Keep 'em short and sweet, so they're easy to scan and remember.",
+                                                "If you've got a bunch, add another row, or use multiple copies of this slide."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "template": "title-subdescriptions",
+                                        "data": {
+                                            "title": "Simple list",
+                                            "descriptions": [
+                                                "Add a quick description of each thing, with enough context to understand what's up.",
+                                                "Keep 'em short and sweet, so they're easy to scan and remember.",
+                                                "If you've got a bunch, add another row, or use multiple copies of this slide."
+                                            ],
+                                            "direction": "column"
+                                        }
+                                    },
+                                    {
+                                        "template": "title-subtitles-subdescriptions",
+                                        "data": {
+                                            "title": "Simple list",
+                                            "descriptions": [
+                                                {
+                                                    "title": "1st thing",
+                                                    "description": "Add a quick description of each thing, with enough context to understand what's up."
+                                                },
+                                                {
+                                                    "title": "2nd thing",
+                                                    "description": "Keep 'em short and sweet, so they're easy to scan and remember."
+                                                },
+                                                {
+                                                    "title": "3rd thing",
+                                                    "description": "If you've got a bunch, add another row, or use multiple copies of this slide."
+                                                },
+                                                {
+                                                    "title": "4th thing",
+                                                    "description": "If you've got a bunch, add another row, or use multiple copies of this slide."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "template": "title-subtitles-subdescriptions",
+                                        "data": {
+                                            "title": "Simple list",
+                                            "descriptions": [
+                                                {
+                                                    "title": "1st thing",
+                                                    "description": "Add a quick description of each thing, with enough context to understand what's up."
+                                                },
+                                                {
+                                                    "title": "2nd thing",
+                                                    "description": "Keep 'em short and sweet, so they're easy to scan and remember."
+                                                },
+                                                {
+                                                    "title": "3rd thing",
+                                                    "description": "If you've got a bunch, add another row, or use multiple copies of this slide."
+                                                },
+                                                {
+                                                    "title": "4th thing",
+                                                    "description": "If you've got a bunch, add another row, or use multiple copies of this slide."
+                                                }
+                                            ],
+                                            "direction": "column"
+                                        }
+                                    },
+                                    {
+                                        "template": "title-description-image",
+                                        "data": {
+                                            "title": "Header",
+                                            "description": "Add a quick description of each thing, with enough context to understand what's up.",
+                                            "image": "https://images.unsplash.com/photo-1735825764460-c5dec05d6253?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                                            "image_description": "the image description"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
